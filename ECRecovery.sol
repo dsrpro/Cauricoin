@@ -9,7 +9,7 @@ pragma solidity >=0.6.0 <0.8.0;
  * These functions can be used to verify that a message was signed by the holder
  * of the private keys of a given address.
  */
-library ECDSA {
+library ECRecovery {
     /**
      * @dev Returns the address that signed a hashed message (`hash`) with
      * `signature`. This address can then be used for verification purposes.
